@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
 
 * {
     margin: 0;
@@ -42,6 +42,11 @@ header .navigation .navigation-items a {
     transition: 0.3 ease;
 }
 
+header span {
+    color: rgb(218, 3, 3);
+    font-weight: 800;
+}
+
 header .navigation .navigation-items a:before {
     content: '';
     position: absolute;
@@ -68,7 +73,7 @@ section {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background: #2696E9;
+    background: #810000;
 }
 
 .home:before {
@@ -115,7 +120,7 @@ section {
 .home .content a {
     background: #fff;
     padding: 15px 35px;
-    color: #1680AC;
+    color: #07151b;
     font-size: 1.1em;
     font-weight: 500;
     text-decoration: none;
@@ -176,7 +181,7 @@ section {
 }
 
 .slider-navigation .nav-btn.active {
-    background: #2696E9;
+    background: rgb(218, 3, 3);
 }
 
 .slider-navigation .nav-btn:not(:last-child) {

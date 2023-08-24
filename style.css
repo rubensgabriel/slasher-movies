@@ -73,7 +73,8 @@ section {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background: #810000;
+    background-image: linear-gradient(to right, #000000, #5a0101);
+    
 }
 
 .home:before {
@@ -101,7 +102,7 @@ section {
 
 .home .content h1{
     font-size: 4em;
-    font-weight: 900;
+    font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 5px;
     line-height: 75px;
@@ -110,7 +111,7 @@ section {
 
 .home .content h1 span{
     font-size: 1.2em;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .home .content p {
@@ -204,7 +205,26 @@ section {
     transition-property: clip-path;
 }
 
+@media (max-width: 1520px) {
+    .home .content h1{
+        font-size: 3.2em;
+        font-weight: 600;
+        letter-spacing: 3px;
+        line-height: 75px;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 920px) {
+    .home .content h1{
+        font-size: 2em;
+        letter-spacing: 2px;
+    }
+}
+
+
 @media (max-width: 1040px) {
+
     header {
         padding: 12px 20px;
     }

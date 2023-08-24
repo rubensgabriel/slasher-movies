@@ -237,6 +237,12 @@ section {
     }
 }
 
+@media (max-width: 420px) {
+    .home .content {
+        width: 80%;
+    }
+}
+
 
 @media (max-width: 1040px) {
 

@@ -242,7 +242,7 @@ section {
 
 @media (max-width: 420px) {
     .home .content {
-        width: 83%;
+        width: 100%;
         margin-top: 20px;
     }
 
@@ -255,11 +255,16 @@ section {
 
     .home .content p {
         margin-bottom: 30px;
+        width: 83%;
     }
 
     .home .content a {
         padding: 10px 25px;
         font-size: 1.1em;
+    }
+
+    .home .content .titulo {
+        font-size: 1.05em;
     }
 }
 
